@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Business card website</title>
+</head>
+
+<body>
+  <nav class="main-nav">
+
+    <ul class="links">
+      <li>
+        <button><a href="/">Me</a></button>
+      </li>
+      <li>
+        <button><a href="#about">About-me</a></button>
+      </li>
+      <li>
+        <button><a href="#projects">Projects</a></button>
+      </li>
+      <li>
+        <button><a href="#contact">Contact</a></button>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="avatar-box">
+      <img src="./images/ava.jpg" class="avatar">
+    </div>
+    <div class="center">
+      <h1 class="center__text glitch is-glitching" data-text="Ivan Vidutin">Ivan Vidutin</h1>
+    </div>
+    <h2>Full Stack Javascript developer</h2>
+    <p>Looking for full-time opportunities</p>
+  </section>
+
+  <section id="about">
+    <div class="inner-wrapper">
+      <h2>About me</h2>
+      <p>
+        I am passionate about web development and about languages such as HTML, CSS, and Javascript.
+      </p>
+      <p>
+        I recently graduated from <a href="https://elbrusboot.camp/">elbrusboot.camp</a> 15-week intensive web
+        development bootcamp and I am looking for a full-stack position.
+      </p>
+      <p>
+        When not coding, I spend time with my family.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="inner-wrapper">
+      <h2>Pet projects</h2>
+      <p>
+        Here are the projects I have completed:
+      </p>
+
+      <ul class="inner-projects">
+        <li>
+          <img class="pets" src="./images/Pet1.jpg">
+          <h3>Pet project 1</h3>
+          <p>
+            Built with Vue.js + Vuex.
+          </p>
+          <div class="links">
+            <a href="">
+              <img class="git-link" src="./images/github.jpg">
+            </a>
+            <a href="">
+              <img class="linkedin-link" src="./images/Linkedin.jpg">
+            </a>
+          </div>
+        </li>
+        <li>
+          <img class="pets" src="./images/Pet2.jpg">
+          <h3>Pet project 2</h3>
+          <p>
+            Built with React.js + Redux.
+          </p>
+          <div class="links">
+            <a href="">
+              <img class="git-link" src="./images/github.jpg">
+            </a>
+            <a href="">
+              <img class="linkedin-link" src="./images/Linkedin.jpg">
+            </a>
+          </div>
+        </li>
+        <li>
+          <img class="pets" src="./images/Pet3.png">
+          <h3>Pet project 3</h3>
+          <p>
+            Built with HTML and CSS.
+          </p>
+          <div class="links">
+            <a href="">
+              <img class="git-link" src="./images/github.jpg">
+            </a>
+            <a href="">
+              <img class="linkedin-link" src="./images/Linkedin.jpg">
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="inner-wrapper short">
+      <h2>Contact me</h2>
+      <p>Let's work together!</p>
+      <form>
+        <table class="row">
+          <tr>
+            <td>
+              <input type="text" placeholder="Your name">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="email" placeholder="Your email">
+            </td>
+          </tr>
+        </table>
+        <textarea placeholder="Your message"></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <a class="footer-logo" href="/">Ivan Vidutin</a>
+    <p>© 2020 Ivan Vidutin. All right reserved.</p>
+  </footer>
+
+</body>
+
+</html>
